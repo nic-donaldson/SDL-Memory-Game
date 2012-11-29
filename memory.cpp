@@ -46,6 +46,7 @@ bool init()
     return true;
 }
 
+/* This chunk of code originally from Lazy Foo' Productions, (http://lazyfoo.net/) */
 SDL_Surface *load_image(std::string filename)
 {
     SDL_Surface *loadedImage = NULL;
@@ -94,6 +95,7 @@ void clean_up()
     SDL_Quit();
 }
 
+/* This chunk of code originally from Lazy Foo' Productions, (http://lazyfoo.net/) */
 void apply_surface(int x, int y, SDL_Surface *source, SDL_Surface *destination, SDL_Rect* clip = NULL)
 {
     // offsets
@@ -105,6 +107,7 @@ void apply_surface(int x, int y, SDL_Surface *source, SDL_Surface *destination, 
     // Blit
     SDL_BlitSurface(source, clip, destination, &offset);
 }
+
 void test()
 {
     apply_surface(0, 0, grid, screen);

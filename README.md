@@ -12,5 +12,4 @@ The next time you play, the sequence will be one longer.
 Squares are chosen randomly with no two same squares chosen in a row.
 
 I give credit for some of the code (particularly timer.cpp) to [Lazy Foo' Productions](http://lazyfoo.net/).
-Most of the knowledge I used to make this was learnt from [Lazy Foo' Productions](http://lazyfoo.net/)
-
+Most of the knowledge I used to make this was learnt from [Lazy Foo' Productions](http://lazyfoo.net/).

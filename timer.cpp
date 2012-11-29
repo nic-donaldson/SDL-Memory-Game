@@ -1,3 +1,8 @@
+/* timer.cpp
+ * Most, if not all of the code here was created thanks to
+ * http://lazyfoo.net/SDL_tutorials/lesson12/index.php
+ * - Lazy Foo' Productions
+*/
 #include "timer.h"
 #include "SDL/SDL.h"
 
