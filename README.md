@@ -3,6 +3,7 @@
 This is a colour memory game written in C++ with SDL.
 To compile:
 >     nic$ make
+Assuming you have SDL, :P
 
 To play the game:
 Press space to start a sequence, wait for it to complete.
